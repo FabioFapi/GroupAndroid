@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/textViewWelcome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Benvenuto nella nostra App"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/shrek"
+            android:scaleType="centerCrop"
+            android:layout_marginBottom="16dp"
+            android:contentDescription="Immagine di benvenuto" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ultime Novità"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/textViewNews"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Qui verranno visualizzate le ultime novità e aggiornamenti."
+            android:layout_marginBottom="16dp" />
+
+
+    </LinearLayout>
+</ScrollView>
